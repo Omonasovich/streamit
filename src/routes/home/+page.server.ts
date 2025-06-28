@@ -13,7 +13,7 @@ const fetchData = async (url: string) => {
 
 export const load = (async () => {
   const apiBaseUrl = "https://api.themoviedb.org/3";
-  const apiKey = TMDB_API_KEY;
+  const apiKey = d072ab41e14734dfa5e1da5b18f09bb6;
 
   const topRatedMovies = fetchData(`${apiBaseUrl}/movie/top_rated?api_key=${apiKey}`);
   const topRatedTVShows = fetchData(`${apiBaseUrl}/tv/top_rated?api_key=${apiKey}`);
